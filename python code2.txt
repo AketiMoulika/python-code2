@@ -1,0 +1,6 @@
+a=str(input("str: "))
+c=len(a)//2
+if len(a)%2!=0:
+	print("second half str of odd lenght:",a[c+1:])
+else:
+	print("first half str of even lenght:",a[:c])
